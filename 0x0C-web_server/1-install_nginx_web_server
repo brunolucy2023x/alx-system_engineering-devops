@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# Script that configures a new Ubuntu machine to respect above requirements
+# install ngix server
 
-apt-get update
-apt-get install -y nginx
-
-echo "Best School" | sudo tee /var/www/html/index.html
-
-service nginx restart
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo echo "Holberton School" > /var/www/html/index.html
+sudo service nginx start
