@@ -6,4 +6,4 @@ apt-get install -y nginx
 
 echo "Best School" | sudo tee /var/www/html/index.html
 
-service nginx restartt
+service nginx restart
