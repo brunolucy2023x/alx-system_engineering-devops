@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# brunookoth44@gmail.com
 """script that fetches info about a given employee using an api
 and exports it in json format
 """
