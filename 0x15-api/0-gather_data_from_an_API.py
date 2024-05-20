@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# brunookoth44@gmail.com
 """script that fetches info about a given employee's ID using an api"""
 import json
 import requests
