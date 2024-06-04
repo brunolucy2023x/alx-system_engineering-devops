@@ -1,27 +1,19 @@
 #!/usr/bin/python3
-
-"""[task 0, get rest api]
+"""
+    Uses the reddit API to print the number of subscribers of a subreddit
 """
 import requests
+from sys import argv
 
 
 def number_of_subscribers(subreddit):
-    """returns the number of subscribers
-
-    Args:
-        subreddit ([string]): [type of subreddit to consult]
-
-    Returns:
-        [int]: [# of subscribers]
-    """
-    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
-    about_info = requests.get(url, headers={"User-Agent": "dairof7"},
-                              allow_redirects=False)
-    if about_info.status_code == 200:
-        return about_info.json()['data']['subscribers']
-    else:
+    """Get the numbers of subscribers by subreddit given"""
+    url_sred_inf = "https://www.reddit.com/r/{}/about.json".format(subreddit)
+    headers = {'user-agent': 'request'}
+    response = requests.get(url_sred_inf, headers=headers,
+                            allow_redirects=False)
+    if str(response) != "<Response [200]>":
         return 0
-
-
-if __name__ == "__main__":
-    pass
+    r_json = response.json()
+    num_subs = r_json.get("data").get("subscribers")
+    return num_subs
