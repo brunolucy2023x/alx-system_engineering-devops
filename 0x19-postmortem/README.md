@@ -1,6 +1,8 @@
 Project Postmortem: Grievance Reporting Application
 Date: June 9, 2024
- 
+
+![image three](https://github.com/brunolucy2023x/alx-system_engineering-devops/assets/144634638/0e0cca00-fd9e-4623-a5ae-24b8825fcb70)
+
 Project Overview: The Grievance Reporting Application aimed to provide a platform for employees to confidentially report workplace grievances, including harassment, discrimination, and safety concerns. The project was initiated on May 23, 2024, and was intended to be completed by August 31, 2024. These was a one army project under ALX sponsorship
 Objectives:
 1.	Develop a user-friendly and secure platform for employees to report workplace grievances anonymously.
@@ -14,6 +16,7 @@ Key Milestones:
 4.	Beta testing phase commenced on August 5, 2024.
 5.	Official launch scheduled for August 31, 2024.
 
+![image two](https://github.com/brunolucy2023x/alx-system_engineering-devops/assets/144634638/3c28725e-f1ae-4b0c-8fb4-9a16c3faddef)
 
  
 Postmortem Analysis:
@@ -45,6 +48,7 @@ Lessons Learned:
 4.	Provide comprehensive training and support to users and administrators to maximize the platform's effectiveness.
 5.	Prioritize integration with existing systems to streamline processes and minimize administrative overhead.
 
+![repairone](https://github.com/brunolucy2023x/alx-system_engineering-devops/assets/144634638/9ccfa1b3-736a-493b-96a8-e31e03ade431)
 
  
 Timeline of Events:
